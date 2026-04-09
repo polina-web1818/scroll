@@ -20,25 +20,24 @@ main {
     min-height: 500vh;
     display: grid;
     background-color: rgb(150, 171, 190);
-    display: grid;
     grid-template-rows: repeat(3, 1fr);
 }
 
 .section {
-    viev-timeline-name: --section-timeline;
-    viev-timeline-axis: y;
+    padding: 40px;
+    view-timeline-name: --section-timeline;
+    view-timeline-axis: y;
 }
 
 .section h2 {
     opacity: 0;
     color: rgb(0, 0, 0);
+    animation-name: bright;
+    animation-timeline: --section-timeline;
+    animation-range: entry 0% cover 90%;
+    animation-fill-mode: both;
 }
 
-.section h2 {
-    animation: bright;
-    animation-timeline: --section-timeline;
-    animation-range: entry 0% cover 50%;
-}
 
 @keyframes bright {
     from {
@@ -49,4 +48,23 @@ main {
         opacity: 1;
         color: rgb(44, 136, 173);
     }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    
+}
+
+::-webkit-scrollbar-thumb {
+    background: aqua;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: blue;
 }
