@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    background-color: rgb(140, 210, 250);
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.a {
+    padding: 5px;
+}
+
+.block1 {
+    background-color: rgb(255, 238, 140);
+    height: 600px;
+}
+
+.block2 {
+    background-color: rgb(243, 181, 100);
+    height: 600px;
+}
+
+.block3 {
+    background-color: rgb(190, 169, 218);
+    height: 600px;
+}
+
+.footer {
+    background-color: rgb(140, 210, 250);
+    height: 50px;
+    display: flex;
+    align-items: center;
+}

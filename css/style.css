@@ -1,0 +1,49 @@
+.svg1 {
+    width: 100px;
+}
+
+.svg2 {
+    width: 100px;
+    height: 100px;
+    background: url(../img/bluesky.svg);
+    background-size: cover;
+}
+
+.svg3 {
+    width: 100px;
+    height: 100px;
+    margin: 200px;
+    fill: rgb(250, 214, 13);
+    stroke: rgb(241, 248, 138);
+    stroke-width: 0.3;
+
+    transform: scale();
+
+}
+
+.svg4 {
+    font-size: 100px;
+    color: rgb(224, 19, 104);
+}
+
+.svg5 {
+    font-size: 100px;
+    color: rgb(68, 10, 163);
+}
+
+.svg6::after {
+    content: "\F3EB";
+    font-family: bootstrap-icons;
+    color: rgb(122, 179, 233);
+}
+
+.svg7 {
+    width: 100px;
+    height: 100px;
+}
+
+.pict {
+    width: 500px;
+    clip-path: polygon(50% 0%, 58% 18%, 73% 6%, 72% 25%, 91% 22%, 81% 38%, 100% 44%, 83% 54%, 97% 68%, 77% 69%, 83% 87%, 65% 79%, 62% 99%, 50% 83%, 38% 99%, 35% 79%, 17% 87%, 23% 69%, 3% 68%, 17% 54%, 0% 44%, 19% 38%, 9% 22%, 28% 25%, 27% 6%, 42% 18%);
+}
+

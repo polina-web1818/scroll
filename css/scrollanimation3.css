@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel {
+    overflow-x: scroll;
+    display: flex;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    object-fit: cover;
+}
+
+.carousel img {
+    animation: grow ease-in-out;
+    animation-timeline: view(inline 50% 30%);
+}
+
+@keyframes grow {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
+}
